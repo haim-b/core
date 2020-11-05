@@ -1,0 +1,40 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "ההתקן כבר הוגדר",
+            "no_devices_found": "לא נמצאו התקנים ברשת"
+        },
+        "error": {
+            "cannot_connect": "לא ניתן להתחבר"
+        },
+        "step": {
+            "pick_device": {
+                "data": {
+                    "device": "התקן"
+                }
+            },
+            "user": {
+                "data": {
+                    "host": "שרת",
+                    "ip_address": "כתובת IP"
+                },
+                "description": "אם תשאיר את השרת ריק, ההתקנים יימצאו באמצעות איתור."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "model": "דגם (לא חובה)",
+                    "nightlight_switch": "השתמש במפסק Nightlight",
+                    "save_on_change": "שמור מצב בעת שינוי",
+                    "transition": "זמן מעבר (מילישניות)",
+                    "use_music_mode": "אפשר מצב מוסיקה"
+                },
+                "description": "אם תשאיר את הדגם ריק, הוא יזוהה באופן אוטומטי."
+            }
+        }
+    },
+    "title": "Yeelight"
+}
